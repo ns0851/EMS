@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(17, 15, 15);
+}
+
+#tasks::-webkit-scrollbar{
+    display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Inverts the color, making it white */
+    cursor: pointer; /* Optional: Changes cursor to a pointer */
+  }
+
+  
